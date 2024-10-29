@@ -7,6 +7,53 @@
   <title>User list</title>
 </head>
 <body>
+  <section class="section add-user">
+    <h2 class="title">User form</h2>
+    <div class="container">
+      <form class="users" id="users">
+        <div class="users__input-box">
+          <input class="users__input" type="text" name="name" value="" placeholder="name...">
+        </div>
+        <div class="users__input-box">
+          <input class="users__input" type="text" name="surname" value="" placeholder="surname...">
+        </div>
+        <div class="users__input-box">
+          <input class="users__input" type="text" name="sex" value="" placeholder="sex...">
+        </div>
+        <div class="users__input-box">
+          <input class="users__input" type="text" name="age" value="" placeholder="age...">
+        </div>
+        <div class="user__buttons">
+          <button class="users__btn users__btn-confirm" id="confirm-btn">confirm data</button>
+          <button class="users__btn users__btn-submit disabled" id="submit-btn">send data</button>
+          <button class="users__btn users__btn-reset" id="reset-btn" type="reset">reset data</button>
+        </div>
+       
+      </form>
+    </div>
+  </section>
+  <section class="section get-user">
+    <h2 class="title">User list</h2>
+
+    <table class="table" id="user-table">
+    
+      <thead class="table__thead">
+        <tr class="table__tr">
+          <th class="table__th">Name and Surname</th>
+          <th class="table__th">Sex</th>
+          <th class="table__th">Age</th>
+          <th class="table__th">Delete user</th>
+        </tr>
+      </thead>
+  
+      <tbody class="table__body" id="user-body">
+      
+      </tbody>
+    </table>
+  </section>
+
+   
+    
   <script type="module" src="js/index.js"></script>
 </body>
 </html>

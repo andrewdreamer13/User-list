@@ -1,0 +1,30 @@
+
+
+
+body {
+  background-color: $color4;
+  font-family: sans-serif;
+  font-size: 18px;
+ 
+}
+
+.container {
+  width: 100%;
+  max-width: 1000px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+.section {
+  padding: 50px 0;
+  border-bottom:1px solid $color1;
+}
+
+.title {
+  font-size: 40px;
+  font-weight: 700;
+  color: $color1;
+  text-align: center;
+  margin-bottom: 30px;
+}
+

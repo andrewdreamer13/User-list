@@ -1,0 +1,76 @@
+
+.users {
+  margin: 0 auto;
+  width: 100%;
+  max-width: 400px;
+  border:1px solid $color1;
+  padding: 10px;
+  font-size: 18px;
+
+  &__input-box {
+    width: 100%;
+    height: 40px;
+    margin-bottom: 15px;
+  }
+
+  &__input {
+    width: 100%;
+    height: 100%;
+    border:1px solid $color1;
+    padding: 0 15px;
+    color:$color1;
+    font-size: 18px;
+    transition: all .3s;
+
+    &:focus {
+      
+
+      &::placeholder {
+        transform: translateY(-50px);
+      }
+    }
+
+    &::placeholder {
+      color: $color3;
+      font-size: inherit;
+      transition: all .3s;
+    }
+  }
+
+  &__buttons {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+  }
+
+  &__btn {
+    padding: 5px 12px;
+    border:1px solid $color1;
+    color: $color1;
+    font-size: 18px;
+    transition: all .3s;
+
+    &:hover {
+      background-color: $color1;
+      color: $color4
+    }
+  }
+
+  &__btn-confirm {
+  }
+
+  &__btn-submit {
+  }
+
+  &__btn-reset {
+  }
+}
+ 
+.disabled {
+  pointer-events: none;
+  border:1px solid  $color3;
+  color: $color3;
+}
+  
+

@@ -1,0 +1,39 @@
+
+.table {
+  margin: 0 auto;
+  width: 100%;
+  max-width: 700px;
+  border:1px solid $color1;
+  padding: 5px;
+  border-collapse: collapse;
+  user-select: none;
+  font-size: 18px;
+  color:$color1;
+
+  &__thead {
+    border:1px solid $color1;
+    padding: 5px;
+  }
+
+  &__tr {
+    border:1px solid $color1;
+    padding: 5px;
+  }
+
+  &__td {
+    border:1px solid $color1;
+    padding: 5px;
+  }
+
+  &__th {
+    border:1px solid $color1;
+    padding: 5px;
+  }
+
+  &__body {
+    border:1px solid $color1;
+    padding: 5px;
+    text-align: center;
+  }
+
+}

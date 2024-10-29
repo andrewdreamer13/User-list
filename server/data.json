@@ -1,5 +1,18 @@
 {
   "users": [
-    
+    {
+      "id": "6064",
+      "name": "Polina",
+      "surname": "Isaeva",
+      "sex": "female",
+      "age": "17"
+    },
+    {
+      "id": "d60b",
+      "name": "Andrew",
+      "surname": "Dreamer",
+      "sex": "male",
+      "age": "47"
+    }
   ]
 }
