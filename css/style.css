@@ -99,7 +99,6 @@ body {
 
 .section {
   padding: 50px 0;
-  border-bottom: 1px solid rgb(228, 155, 7);
 }
 
 .title {
@@ -154,6 +153,10 @@ body {
   transition: all 0.3s;
 }
 .users__btn:hover {
+  background-color: rgb(228, 155, 7);
+  color: rgb(49, 49, 48);
+}
+.users__btn:focus {
   background-color: rgb(228, 155, 7);
   color: rgb(49, 49, 48);
 }

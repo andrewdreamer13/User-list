@@ -55,6 +55,11 @@
       background-color: $color1;
       color: $color4
     }
+
+    &:focus {
+      background-color: $color1;
+      color: $color4
+    }
   }
 
   &__btn-confirm {

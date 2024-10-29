@@ -13,6 +13,13 @@
       "surname": "Dreamer",
       "sex": "male",
       "age": "47"
+    },
+    {
+      "id": "1110",
+      "name": "Milana",
+      "surname": "Isaeva",
+      "sex": "female",
+      "age": "20"
     }
   ]
 }
