@@ -33,6 +33,7 @@ submitBtn.addEventListener("click", (event) => {
 function createUserData() {
   const usersFormData = new FormData(userForm);
   usersFormDataObject = Object.fromEntries(usersFormData);
+  usersFormDataObject.date = (new Date().toLocaleString()).slice(0,17);
   console.log(usersFormDataObject);
 }
 
@@ -66,6 +67,7 @@ function renderUsers(data) {
         <td class="table__td">${user.name} ${user.surname}</td>
         <td class="table__td">${user.sex}</td>
         <td class="table__td">${user.age}</td>
+        <td class="table__td">${user.date}</td>
         <td class="table__td"><button class="users__btn del-btn" id="${user.id}">delete</button></td>
       </tr>
       `;
